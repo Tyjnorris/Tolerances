@@ -1,0 +1,131 @@
+.developer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: space-around;
+  width: 100%;
+  position: relative;
+  top: 9rem;
+  flex-direction: column;
+
+}
+
+
+.developer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 180px;
+  background-image: url(../images/bricks.PNG);
+}
+
+.developer-top:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  background-color: rgba(255, 121, 0, 0.5);
+}
+.developer-top h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: "Lobster", cursive;
+  padding-right: 1rem;
+  color: rgb(255, 153, 0);
+  z-index: 4;
+}
+
+.developer-top h1 em {
+  color: rgb(0, 140, 255);
+}
+
+.developer-top img {
+  width: 100px;
+  height: auto;
+  z-index: 4;
+}
+
+.developer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  background-color: lightgrey;
+  z-index: 4;
+  border: 2px solid rgb(0, 140, 255);
+}
+
+.developer-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 3rem 0;
+  background-image: url('../images/bridge.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 140, 255);
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+
+}
+
+.developer-name:before{
+  position: absolute;
+  content: "";
+  top: 181px;
+  left: 0;
+  width: 100%;
+  height: 365px;
+  background-color: rgba(0, 255, 100, 0.25);
+}
+.developer-name p {
+  font-size: 2rem;
+  font-family: "Bungee Inline", cursive;
+  color:  white;
+  padding-bottom: 2rem;
+  z-index: 4;
+}
+
+.developer-name img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  z-index: 4;
+}
+
+.developer-bottom {
+  background-color: lightgrey;
+
+}
+
+.developer-bottom h2 {
+  color: rgb(255, 153, 0);
+  padding-top: 1rem;
+}
+
+.developer-bottom p {
+  color: grey;
+  font-family: "Lobster", cursive;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+}
+
+
+.developer-bottom p em {
+  color: grey;
+}
+
+h3{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: grey;
+  z-index: 4;
+  font-family: "Lobster";
+}

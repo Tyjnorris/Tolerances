@@ -14,14 +14,41 @@ header {
   background-color: white;
   width: 100%;
 }
+@media only screen and (max-width: 900px){
+  header {
+    justify-content: center;
+    display: block;
+    text-align: center;
+  }
+}
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 900px){
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
+a {
+  text-decoration: none;
+}
+
+.logo a:visited {
+/*  color: rgb(255, 153, 0); */
+  color: rgb(0, 140, 220);
+}
+
 
 h2 {
-  font-size: 4rem;
+  font-size: 2.25rem;
   font-family: 'Lobster', cursive;
   font-weight: 400;
   color: black;
 }
-
 p em {
   font-weight: 700;
   color: #FFFFFF;
@@ -30,6 +57,14 @@ p em {
   display: flex;
   align-items: center;
   padding-left: 4rem;
+}
+
+@media only screen and (max-width: 900px){
+  .logo {
+    width: 100%;
+    justify-content: center;
+    padding: 2rem 0;
+  }
 }
 header img {
   width: 5rem;
@@ -42,21 +77,49 @@ header img {
   padding-left: 1rem;
 }
 .logotext p {
-  font-size: 1rem;
+  font-size: 0.75rem;
   color: grey;
   margin: 0;
+}
+
+@media only screen and (max-width: 900px){
+  nav {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: lightgrey;
+  }
 }
 nav span {
   padding-right: 6rem;
   color: grey;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: 'Bungee Inline';
 }
 
-p.logoname {
-  font-size: 2.5rem;
-  font-weight: 600;
+@media only screen and (max-width: 900px){
+  nav span {
+    padding: 0.5rem 0;
+    display: block;
+    border: 1px solid white;
+  }
+}
+
+nav span a:visited {
+  color: grey;
+}
+
+nav span a:hover {
+  color: rgb(0, 140, 255);
+}
+
+header nav span a:hover {
   color: rgb(255, 153, 0);
+}
+p.logoname {
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(0, 140, 255);
   font-family: 'Bungee Inline';
   margin: 0;
 }
@@ -70,9 +133,15 @@ p.logoname {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 10rem;
+  top: 9rem;
 }
 
+@media only screen and (max-width: 900px){
+  .banner {
+    height: 400px;
+    top: 13rem;
+  }
+}
 .photo {
   display: flex;
   justify-content: space-around;
@@ -83,7 +152,11 @@ p.logoname {
   width: 100%;
   height: 600px;
 }
-
+@media only screen and (max-width: 900px){
+  .photo {
+  height: 400px;
+}
+}
 .photo:before{
   position: absolute;
   content: "";
@@ -100,14 +173,14 @@ p.logoname {
 }
 .photo h1{
   color: white;
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-weight: 500;
   z-index: 4;
   font-family: 'Lobster', cursive;
 }
 .photo i{
   z-index: 4;
-  color: white;
+  color: grey;
   height: 4rem;
   width: 4rem;
 }
@@ -115,23 +188,57 @@ p.logoname {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 300px;
   position: relative;
-  top: 10rem;
+  top: 9rem;
+  flex-wrap: wrap;
+  height: 200px;
+  margin: 4rem 0;
 }
 
+@media only screen and (max-width: 900px){
+  .page-navigation {
+    top: 13rem;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .page-navigation {
+    height: 500px;
+  }
+}
 .item a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 150px;
+  width: 300px;
+  height: 120px;
   align-items: center;
   padding: 0 10px;
   text-decoration: none;
 }
 
+@media only screen and (max-width: 980px) and (min-width: 701px){
+  .item a {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 700px){
+  .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.item:hover{
+/*  background-color: lightgrey; */
+  position: relative;
+  bottom: 1.5rem;
+/*  border: 2px solid orange; */
+}
 .item p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 400;
   color: grey;
   font-family: 'Bungee Inline';
@@ -145,19 +252,30 @@ p.logoname {
 #cad,
 #create {
   position: relative;
-  top: 10rem;
+  top: 9rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: lightgrey;
   padding-bottom: 2rem;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+@media only screen and (max-width: 900px){
+  #drawings,
+  #cad,
+  #create {
+    top: 13rem;
+  }
 }
 
 #drawings h2,
 #cad h2,
 #create h2 {
   padding: 2rem 0;
-  color: rgb(255, 153, 0);
+  color: black;
+  z-index: 4;
 }
 
 #drawings h3,
@@ -165,7 +283,9 @@ p.logoname {
 #create h3 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: rgb(255, 153, 0);
+  color: grey;
+  z-index: 4;
+  font-family: "Lobster";
 }
 #drawings p,
 #cad p,
@@ -173,27 +293,117 @@ p.logoname {
   font-size: 1.5rem;
 }
 
+#drawings {
+  background-image: url('../images/hawaii-rainbow.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#cad {
+  background-image: url('../images/gear-train.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#create {
+  background-image: url('../images/canal.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#drawings:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 140,255,0.5);
+}
+#cad:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 121, 0, 0.5);
+}
+
+#create:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(217, 217, 217, 0.5);
+}
 .projects {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  z-index: 4;
 }
 
 .project {
   display: flex;
-  width: 700px;
-  height: 400px;
-  border: 1px solid grey;
+  width: 300px;
+  height: 200px;
+  border: 2px solid rgb(255, 153,0);
+  justify-content: center;
+  margin: 1rem;
 }
 
-#cad .projects .project {
-  background-color: lightgrey;
+.project:hover {
+  position: relative;
+  bottom: 0.5rem;
+}
+/*@media only screen and (max-width: 500px) {
+  .project {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 501px){
+  .project {
+    height: 300px;
+  }
+}*/
+.project a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.paint-roller {
+  background-image: url('../images/Paint-Roller.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 168px;
+}
+/*@media only screen and (max-width: 800px){
+  .paint-roller {
+    height: 89.25%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .paint-roller {
+    height: 84%;
+  }
+}*/
+
+.paint-roller:hover {
+  background-image: url("../images/Paint-Roller-hover.PNG");
 }
 .project-image-title {
   padding: 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .project-image-title img {
@@ -218,15 +428,20 @@ footer {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  top: 10rem;
+  top: 9rem;
   width: 100%;
   height: 100px;
-  background-color: rgb(255, 153, 0);
+  background-color: black;
 }
 
+@media only screen and (max-width: 900px){
+  footer{
+    top: 13rem;
+  }
+}
 .copyright {
   padding-left: 5rem;
   color: grey;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: 'Bungee Inline';
 }

@@ -1,0 +1,105 @@
+.contact {
+  width: 100%;
+  position: relative;
+  top: 9rem;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  flex-wrap: wrap;
+  background-image: url('../images/parliament-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 3rem 0;
+}
+
+.contact:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 140, 255, 0.5);
+}
+
+@media only screen and (max-width: 900px){
+  .contact {
+    top: 13rem;
+    height: 1100px;
+  }
+}
+@media only screen and (max-width: 700px){
+  .contact{
+    height: 600%;
+  }
+}
+
+
+.contact-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  padding-top: 1rem;
+  text-align: center;
+  z-index: 4;
+}
+
+.contact-top h1{
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: "Lobster", cursive;
+  padding-right: 1rem;
+  color: rgb(255, 153, 0);
+}
+.contact-top img {
+  width: 100px;
+  height: auto;
+}
+
+.contact-top h1 em {
+  color: white;
+}
+
+.contact-info {
+  width: 55%;
+  font-family: "Lobster", cursive;
+  font-size: 1.25rem;
+  color: grey;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 3rem 6rem 0 6rem;
+  line-height: 2rem;
+  word-spacing: 0.25em;
+  z-index: 4;
+
+}
+
+@media only screen and (max-width: 700px){
+  .contact-info {
+    padding: 3rem 2rem;
+    width: 75%;
+  }
+}
+
+.contact-info p {
+  padding-bottom: 2rem;
+}
+
+.contact-info p:last-child {
+  padding-top: 2rem;
+}
+.contact-info p em {
+  color: rgb(255, 153, 0);
+}
+
+.contact-info a {
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.contact-info a:hover {
+  color: rgb(255, 153, 0);
+}
