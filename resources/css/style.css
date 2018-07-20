@@ -42,7 +42,9 @@ a {
   color: rgb(0, 140, 220);
 }
 
-
+.logo a:link {
+  color: rgb(0, 140, 220);
+}
 h2 {
   font-size: 2.25rem;
   font-family: 'Lobster', cursive;
@@ -106,6 +108,10 @@ nav span {
 }
 
 nav span a:visited {
+  color: grey;
+}
+
+nav span a:link {
   color: grey;
 }
 
@@ -269,6 +275,10 @@ p.logoname {
 
 .banner-good h2 em {
   color: white;
+}
+
+.banner-good h2 a {
+  color: rgb(255, 153, 0);
 }
 
 .two {
@@ -554,7 +564,7 @@ p.logoname {
 }*/
 
 .paint-roller:hover {
-  background-image: url("../images/Paint-Roller-hover.PNG");
+  background-image: url("../images/Paint-Roller-hover.png");
 }
 .project-image-title {
   padding: 1rem;
