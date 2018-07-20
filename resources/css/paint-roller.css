@@ -102,3 +102,29 @@
   color: white;
   padding-right:
 }
+
+.index-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+}
+
+.index-link h2 {
+  color: grey;
+  padding-left: 1rem;
+}
+
+.index-link h2 a:visited {
+  color: grey;
+}
+
+.index-link h2 a:hover {
+  color: rgb(0, 140, 255);
+}
+
+@media only screen and (max-width: 700px){
+  .page-navigation {
+    height: 150px;
+  }
+}
