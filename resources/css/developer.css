@@ -163,8 +163,15 @@ h3{
 
 .index-link h2 a:hover {
   color: rgb(0, 140, 255);
-  background-color: lightgrey;
   padding: 15px;
+}
+
+@media only screen and (max-width: 400px){
+  .index-link h2 a:hover {
+    color: grey;
+    background-color: lightgrey;
+    padding: 15px 0;
+  }
 }
 
 @media only screen and (max-width: 700px){

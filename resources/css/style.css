@@ -301,7 +301,7 @@ p.logoname {
 
 @media only screen and (max-width: 500px){
   .banner-good h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: normal;
     padding: 1rem;
   }

@@ -108,6 +108,13 @@
   justify-content: center;
   align-items: center;
   color: orange;
+  padding: 15px;
+  border-radius: 1rem;
+}
+
+.index-link:hover {
+  background-color: lightgrey;
+  box-shadow: 3px 3px 3px rgb(50,50,50,0.8);
 }
 
 .index-link h2 {
@@ -121,10 +128,20 @@
 
 .index-link h2 a:hover {
   color: rgb(0, 140, 255);
+  background-color: lightgrey;
+  padding: 15px;
 }
 
 .index-link h2 a:link {
   color: grey;
+}
+
+@media only screen and (max-width: 400px){
+  .index-link h2 a:hover {
+    color: grey;
+    background-color: lightgrey;
+    padding: 15px 0;
+  }
 }
 
 @media only screen and (max-width: 700px){
