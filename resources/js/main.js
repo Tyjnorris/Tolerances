@@ -11,12 +11,11 @@ $(".page-navigation .item a").on("click", function(event){
     scrollTop : newLocation
   });
 });
-    $(".regular").slick({
+ $(".regular").slick({
           dots: true,
           infinite: true,
           arrows: true,
           autoplay: true,
-          autoplaySpeed: 2000,
+          autoplaySpeed: 3000,
       });
-
 });
