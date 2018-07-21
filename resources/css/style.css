@@ -19,6 +19,7 @@ header {
     justify-content: center;
     display: block;
     text-align: center;
+    height: 12rem;
   }
 }
 .mobile {
@@ -400,6 +401,10 @@ p.logoname {
 .three h2 a:visited {
   color: white;
 }
+
+.three h2 a:link {
+  color: white;
+}
 .three h2:hover {
   background-color: darkblue;
   box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.80);
@@ -627,7 +632,7 @@ p.logoname {
 }
 
 .project:hover {
-  box-shadow: 3px 3px 3px rgba(50 ,50 ,50 ,0.8);
+  box-shadow: 6px 6px 3px rgba(50 ,50 ,50 ,0.8);
 }
 /*@media only screen and (max-width: 500px) {
   .project {
