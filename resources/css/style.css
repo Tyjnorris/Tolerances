@@ -80,7 +80,7 @@ header img {
   padding-left: 1rem;
 }
 .logotext p {
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: grey;
   margin: 0;
 }
@@ -138,7 +138,8 @@ p.logoname {
   justify-content: center;
   height: 438px;
   align-items: center;
-  background-image: url("../images/bricks.PNG");
+/*  background-color: black; */
+/*  background-image: url("../images/bricks.PNG"); */
 }
 .ban:before {
   position: absolute;
@@ -147,8 +148,13 @@ p.logoname {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
+@media only screen and (min-width: 1400px){
+  .ban {
+   height: 538px;
+  }
 }
 @media only screen and (max-width: 1100px){
   .ban {
@@ -172,10 +178,15 @@ p.logoname {
   }
 }
 .regular{
-  width: 70%;
+  width: 100%;
   height: 404px;
   border: 2px solid rgb(255, 153, 0);
   z-index: 3;
+}
+@media only screen and (min-width: 1400px){
+  .regular{
+  height: 504px;
+  }
 }
 @media only screen and (max-width: 1100px){
   .regular{
@@ -190,13 +201,11 @@ p.logoname {
 }
 @media only screen and (max-width: 700px){
   .regular {
-    width: 90%;
     height: 254px;
   }
 }
 @media only screen and (max-width: 500px){
   .regular {
-    width: 70%;
     height: 204px;
   }
 }
@@ -205,6 +214,12 @@ p.logoname {
   width: 100%;
   height: 400px;
 }
+@media only screen and (min-width: 1400px){
+  .banner {
+    height: 500px;
+  }
+}
+
 @media only screen and (max-width: 1100px){
   .banner {
     height: 300px;
@@ -225,12 +240,26 @@ p.logoname {
     height: 200px;
   }
 }
-
-
-.banner-good{
+.banner-good {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0,140,255);
   width: 100%;
   height: 400px;
+  background-image: url("../images/eternal-flame (2).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+
+@media only screen and (min-width: 1400px){
+  .banner-good {
+    height: 500px;
+  }
+}
+
 @media only screen and (max-width: 1100px){
   .banner-good {
     height: 350px;
@@ -258,19 +287,6 @@ p.logoname {
 
 }
 
-.banner-good {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  width: 100%;
-  height: 400px;
-  background-image: url("../images/eternal-flame (2).jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .banner-good:before {
   position: absolute;
   content: "";
@@ -278,7 +294,7 @@ p.logoname {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(217, 217 ,217,0.15);
+  background-color: rgba(217, 217 ,217,0.05);
 }
 
 .banner-good h1 {
@@ -286,11 +302,16 @@ p.logoname {
 }
 
 .banner-good img {
-  width: 20%;
+  width: 12%;
   height: 30%;
   z-index: 4;
 }
-
+@media only screen and (min-width: 1400px){
+  .banner-good img{
+     width: 15%;
+     height: 30%;
+  }
+}
 .banner-good h2 {
   padding: 5rem;
   color: rgb(255, 153, 0);
@@ -312,6 +333,11 @@ p.logoname {
 
 .banner-good h2 a {
   color: rgb(255, 153, 0);
+}
+@media only screen and (min-width: 1400px){
+  .one {
+    height: 500px;
+  }
 }
 
 @media only screen and (max-width: 1100px){
@@ -340,7 +366,11 @@ p.logoname {
 .two {
   background-image: url('../images/Toronto-Skyline.jpg');
 }
-
+@media only screen and (min-width: 1400px){
+  .two {
+    height: 500px;
+  }
+}
 @media only screen and (max-width: 1100px){
   .two {
     height: 350px;
@@ -366,7 +396,11 @@ p.logoname {
   background-image: url("../images/Paint-Roller-banner-no-text.PNG");
   flex-direction: column;
 }
-
+@media only screen and (min-width: 1400px){
+  .three {
+    height: 500px;
+  }
+}
 @media only screen and (max-width: 1100px){
   .three {
     height: 350px;
@@ -464,7 +498,7 @@ p.logoname {
   position: relative;
   top: 9rem;
   flex-wrap: wrap;
-  height: 200px;
+  height: 150px;
   margin-bottom: 2rem;
 }
 
@@ -533,6 +567,7 @@ p.logoname {
   padding-bottom: 2rem;
   text-align: center;
   border-bottom: 2px solid white;
+  border-radius: 4px;
 }
 
 @media only screen and (max-width: 900px){
@@ -571,6 +606,7 @@ p.logoname {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
 }
 #cad {
   background-image: url('../images/gear-train.jpg');
@@ -705,7 +741,8 @@ footer {
   top: 9rem;
   width: 100%;
   height: 100px;
-  background-color: black;
+  background-color: white;
+  border-top: 1px solid grey;
 }
 
 @media only screen and (max-width: 900px){
