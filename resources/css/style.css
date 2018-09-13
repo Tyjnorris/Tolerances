@@ -393,7 +393,7 @@ p.logoname {
 }
 
 .three {
-  background-image: url("../images/Paint-Roller-banner-no-text.PNG");
+  background-image: url("../images/Paint-Roller-banner-no-text.PNG");/
   flex-direction: column;
 }
 @media only screen and (min-width: 1400px){
@@ -708,6 +708,19 @@ p.logoname {
 
 .paint-roller:hover {
   background-image: url("../images/Paint-Roller-hover.png");
+}
+
+.scissor-jack {
+  background-image: url('../images/scissor-jack.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  border-radius: 1rem;
+}
+
+.scissor-jack:hover {
+  background-image: url("../images/scissor-jack-hover.PNG");
 }
 .project-image-title {
 /*  padding: 1rem;*/
