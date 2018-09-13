@@ -393,7 +393,8 @@ p.logoname {
 }
 
 .three {
-  background-image: url("../images/Paint-Roller-banner-no-text.PNG");/
+  background-image: url("../images/Paint-Roller-banner-no-text.PNG");
+  display: flex;
   flex-direction: column;
 }
 @media only screen and (min-width: 1400px){
