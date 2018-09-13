@@ -724,7 +724,7 @@ p.logoname {
 }
 
 .touch-sensor {
-  background-image: url('../images/Touch-Sensor.PNG');
+  background-image: url("../images/Touch-Sensor.PNG");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
