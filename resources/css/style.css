@@ -736,6 +736,20 @@ p.logoname {
 .touch-sensor:hover {
   background-image: url("../images/Touch-Sensor-hover.PNG");
 }
+
+.gearbox-sprocket{
+  background-image: url('../images/gearbox-sprocket.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  border-radius: 1rem;
+}
+
+.paint-roller:hover {
+  background-image: url("../images/gearbox-sprocket-hover.png");
+}
+
 .project-image-title {
 /*  padding: 1rem;*/
   display: flex;
