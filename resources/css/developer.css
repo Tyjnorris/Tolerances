@@ -71,7 +71,7 @@
   flex-direction: column;
   width: 100%;
   padding: 3rem 0;
-  background-image: url('../images/bridge.jpg');
+  background-image: url('../images/victoria.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -81,6 +81,10 @@
 
 }
 
+.vinny {
+  background-image: url('../images/river.jpg');
+}
+
 .developer-name:before{
   position: absolute;
   content: "";
@@ -88,7 +92,17 @@
   left: 0;
   width: 100%;
   height: 325px;
-  background-color: rgba(0, 255, 100, 0.25);
+  background-color: rgba(0, 50, 100, 0.25);
+}
+
+.vinny:before{
+  position: absolute;
+  content: "";
+  top: 181px;
+  left: 0;
+  width: 100%;
+  height: 325px;
+  background-color: rgba(0, 0, 100, 0.25);
 }
 .developer-name p {
   font-size: 2rem;
