@@ -746,8 +746,8 @@ p.logoname {
   border-radius: 1rem;
 }
 
-.paint-roller:hover {
-  background-image: url("../images/gearbox-sprocket-hover.png");
+.gearbox-sprocket:hover {
+  background-image: url("../images/gearbox-sprocket-hover.PNG");
 }
 
 .project-image-title {
