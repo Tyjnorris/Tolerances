@@ -803,6 +803,19 @@ p.logoname {
   background-image: url("../images/gearbox-sprocket-hover.PNG");
 }
 
+.pencil-holder{
+  background-image: url('../images/disassembled-pencil-holder.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  border-radius: 1rem;
+}
+
+.pencil-holder:hover {
+  background-image: url("../images/disassembled-pencil-holder-hover.jpg");
+}
+
 .project-image-title {
 /*  padding: 1rem;*/
   display: flex;
