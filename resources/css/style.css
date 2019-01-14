@@ -740,6 +740,18 @@ p.logoname {
   display: flex;
   justify-content: center;
 }
+.paint-roller-drawing {
+  background-image: url('../images/Paint-roller-drawing.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  border-radius: 1rem;
+}
+
+.paint-roller-drawing:hover {
+  background-image: url("../images/Paint-roller-drawing-hover.PNG");
+}
 .paint-roller {
   background-image: url('../images/Paint-Roller.PNG');
   background-size: cover;
