@@ -815,6 +815,70 @@ p.logoname {
   background-image: url("../images/gearbox-sprocket-hover.PNG");
 }
 
+.ball-bearing{
+  background-image: url('../images/Ball-Bearing.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  border-radius: 1rem;
+}
+
+.ball-bearing:hover{
+  background-image: url("../images/Ball-Bearing-hover.PNG");
+}
+
+.Spring-Launcher{
+  background-image: url('../images/Launcher.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  border-radius: 1rem;
+}
+
+.Spring-Launcher:hover{
+  background-image: url("../images/Launcher-hover.PNG");
+}
+
+.Tension-Sensor{
+  background-image: url('../images/Tension-sensor.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  border-radius: 1rem;
+}
+
+.Tension-Sensor:hover{
+  background-image: url("../images/Tension-sensor-hover.PNG");
+}
+
+.Spray-bottle-humidifier-other{
+  background-image: url('../images/Humidifier-other.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  border-radius: 1rem;
+}
+
+.Spray-bottle-humidifier-other:hover{
+  background-image: url('../images/Humidifier-other-hover.PNG');
+}
+
+.Humidifier-one{
+  background-image: url('../images/Humidifier.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  border-radius: 1rem;
+}
+
+.Humidifier-one:hover{
+  background-image: url('../images/Humidifier-hover.PNG');
+}
 .pencil-holder{
   background-image: url('../images/disassembled-pencil-holder.jpg');
   background-size: cover;
@@ -828,6 +892,18 @@ p.logoname {
   background-image: url("../images/disassembled-pencil-holder-hover.jpg");
 }
 
+.built-humidifier-one{
+  background-image: url('../images/Built-Humidifier.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 188px;
+  border-radius: 1rem;
+}
+
+.built-humidifier-one:hover{
+  background-image: url("../images/Built-Humidifier-hover.jpg");
+}
 .project-image-title {
 /*  padding: 1rem;*/
   display: flex;
