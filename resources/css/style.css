@@ -282,8 +282,8 @@ p.logoname {
 }
 
 .regular h1 {
-  font-size: 3rem;
-  font-family: "Bungee Inline", cursive;
+  font-size: 4rem;
+  font-family: 'Lobster', cursive;
 
 }
 
@@ -299,12 +299,17 @@ p.logoname {
 
 .banner-good h1 {
   z-index: 4;
+  padding: 10px;
+  background-color: white;
+  border-radius: 1rem;
+  color: rgb(0, 140, 220);
 }
 
 .banner-good img {
   width: 12%;
   height: 30%;
   z-index: 4;
+  padding-left: 20px;
 }
 @media only screen and (min-width: 1400px){
   .banner-good img{
@@ -338,11 +343,27 @@ p.logoname {
   .one {
     height: 500px;
   }
+  .one img {
+    height: 150px;
+    width: 150px;
+  }
 }
-
+@media only screen and (max-width: 1399px){
+  .one {
+    height: 400px;
+  }
+  .one img {
+    height: 125px;
+    width: 125px;
+  }
+}
 @media only screen and (max-width: 1100px){
   .one {
     height: 350px;
+  }
+  .one img {
+    height: 100px;
+    width: 100px;
   }
 }
 @media only screen and (max-width: 900px){
@@ -641,13 +662,21 @@ p.logoname {
 }
 
 #drawings h3,
-#cad h3,
-#create h3 {
-  font-size: 2.5rem;
+#cad h3{
+  font-size: 2rem;
   font-weight: 700;
-  color: grey;
+  color: rgba(50, 50, 50, 0.9);
   z-index: 4;
   font-family: "Lobster";
+  padding-bottom: 5px;
+}
+#create h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  z-index: 4;
+  font-family: "Lobster";
+  padding-bottom: 5px;
 }
 #drawings p,
 #cad p,
@@ -718,7 +747,7 @@ p.logoname {
   border: 2px solid rgb(255, 153,0);
   justify-content: center;
   margin: 1rem;
-  border-radius: 1rem;
+  border-radius: 1.25rem;
 }
 
 .project:hover {
