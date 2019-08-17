@@ -922,7 +922,7 @@ p.logoname {
 }
 
 .built-humidifier-one{
-  background-image: url('../images/built-humidifier.jpg');
+  background-image: url("../images/built-humidifier.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
