@@ -467,7 +467,7 @@ p.logoname {
 }
 
 .four {
-  background-image: url("../images/Touch-Sensor-banner.jpg");
+  background-image: url("../images/touch-sensor-banner.jpg");
   display: flex;
   flex-direction: column;
 }
@@ -770,7 +770,7 @@ p.logoname {
   justify-content: center;
 }
 .paint-roller-drawing {
-  background-image: url('../images/Paint-roller-drawing.jpg');
+  background-image: url('../images/paint-roller-drawing.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -779,10 +779,10 @@ p.logoname {
 }
 
 .paint-roller-drawing:hover {
-  background-image: url("../images/Paint-roller-drawing-hover.jpg");
+  background-image: url("../images/paint-roller-drawing-hover.jpg");
 }
 .paint-roller {
-  background-image: url('../images/Paint-Roller.jpg');
+  background-image: url('../images/paint-roller.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -802,7 +802,7 @@ p.logoname {
 }*/
 
 .paint-roller:hover {
-  background-image: url("../images/Paint-Roller-hover.jpg");
+  background-image: url("../images/paint-roller-hover.jpg");
 }
 
 .scissor-jack {
@@ -819,7 +819,7 @@ p.logoname {
 }
 
 .touch-sensor {
-  background-image: url("../images/Touch-Sensor.jpg");
+  background-image: url("../images/touch-sensor.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -828,7 +828,7 @@ p.logoname {
 }
 
 .touch-sensor:hover {
-  background-image: url("../images/Touch-Sensor-hover.jpg");
+  background-image: url("../images/touch-sensor-hover.jpg");
 }
 
 .gearbox-sprocket{
@@ -858,7 +858,7 @@ p.logoname {
 }
 
 .Spring-Launcher{
-  background-image: url('../images/Launcher.jpg');
+  background-image: url('../images/launcher.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -867,11 +867,11 @@ p.logoname {
 }
 
 .Spring-Launcher:hover{
-  background-image: url("../images/Launcher-hover.jpg");
+  background-image: url("../images/launcher-hover.jpg");
 }
 
 .Tension-Sensor{
-  background-image: url('../images/Tension-sensor.jpg');
+  background-image: url('../images/tension-sensor.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -880,7 +880,7 @@ p.logoname {
 }
 
 .Tension-Sensor:hover{
-  background-image: url("../images/Tension-sensor-hover.jpg");
+  background-image: url("../images/tension-sensor-hover.jpg");
 }
 
 .Spray-bottle-humidifier-other{
@@ -922,7 +922,7 @@ p.logoname {
 }
 
 .built-humidifier-one{
-  background-image: url('../images/Built-Humidifier.jpg');
+  background-image: url('../images/built-Humidifier.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -931,7 +931,7 @@ p.logoname {
 }
 
 .built-humidifier-one:hover{
-  background-image: url("../images/Built-Humidifier-hover.jpg");
+  background-image: url("../images/built-Humidifier-hover.jpg");
 }
 .project-image-title {
 /*  padding: 1rem;*/
