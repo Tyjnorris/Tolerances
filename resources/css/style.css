@@ -922,7 +922,7 @@ p.logoname {
 }
 
 .built-humidifier-one{
-  background-image: url("../images/built-humidifier.jpg");
+  background-image: url("../images/Built-humidifier.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -931,7 +931,7 @@ p.logoname {
 }
 
 .built-humidifier-one:hover{
-  background-image: url("../images/built-humidifier-hover.jpg");
+  background-image: url("../images/Built-humidifier-hover.jpg");
 }
 .project-image-title {
 /*  padding: 1rem;*/
