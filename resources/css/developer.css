@@ -142,11 +142,17 @@
 }
 
 h3{
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   color: grey;
   z-index: 4;
   font-family: "Lobster";
+}
+.create h3{
+  color: white;
+}
+.drawing h3, .cad h3{
+  color: rgba(50, 50, 50, 0.9);
 }
 
 .index-link{
