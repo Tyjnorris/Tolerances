@@ -705,6 +705,30 @@ p.logoname {
   z-index: 4;
   font-family: 'Lobster', cursive;
 }
+.Section-Descriptions-cad{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  width: 800px;
+  margin: 2rem 0rem;
+  padding: 2rem;
+  background-color: rgb(47, 51, 56);
+  z-index: 4;
+  font-family: 'Lobster', cursive;
+}
+.Section-Descriptions-drawing{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  width: 800px;
+  margin: 2rem 0rem;
+  padding: 2rem;
+  background-color: rgb(47, 51, 56);
+  z-index: 4;
+  font-family: 'Lobster', cursive;
+}
 .project {
   display: flex;
   width: 300px;
