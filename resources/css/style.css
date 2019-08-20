@@ -684,7 +684,6 @@ p.logoname {
   flex-wrap: wrap;
 }
 .drawings{
-
   background-color: rgb(47, 51, 56);
 }
 .cad{
@@ -705,7 +704,6 @@ p.logoname {
   background-color: rgb(47, 51, 56);
   z-index: 4;
   font-family: 'Lobster', cursive;
-  border-radius:
 }
 .project {
   display: flex;
