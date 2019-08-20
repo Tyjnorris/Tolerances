@@ -29,7 +29,7 @@ header {
 @media only screen and (max-width: 900px){
   .mobile {
     display: block;
-  }
+}
   .desktop {
     display: none;
   }
@@ -138,8 +138,6 @@ p.logoname {
   justify-content: center;
   height: 438px;
   align-items: center;
-/*  background-color: black; */
-/*  background-image: url("../images/bricks.jpg"); */
 }
 .ban:before {
   position: absolute;
@@ -153,18 +151,18 @@ p.logoname {
 
 @media only screen and (min-width: 1400px){
   .ban {
-   height: 538px;
+    height: 538px;
   }
 }
 @media only screen and (max-width: 1100px){
   .ban {
-   height: 400px;
+    height: 400px;
   }
 }
 @media only screen and (max-width: 900px){
   .ban {
-  top: 14rem;
-   height: 350px;
+    top: 14rem;
+    height: 350px;
   }
 }
 @media only screen and (max-width: 700px){
@@ -185,18 +183,17 @@ p.logoname {
 }
 @media only screen and (min-width: 1400px){
   .regular{
-  height: 504px;
+    height: 504px;
   }
 }
 @media only screen and (max-width: 1100px){
   .regular{
-  height: 354px;
+    height: 354px;
   }
 }
 @media only screen and (max-width: 900px){
   .regular {
-  height: 304px;
-
+    height: 304px;
   }
 }
 @media only screen and (max-width: 700px){
@@ -284,7 +281,6 @@ p.logoname {
 .regular h1 {
   font-size: 4rem;
   font-family: 'Lobster', cursive;
-
 }
 
 .banner-good:before {
@@ -312,10 +308,10 @@ p.logoname {
   padding-left: 20px;
 }
 @media only screen and (min-width: 1400px){
-  .banner-good img{
-     width: 15%;
-     height: 30%;
-  }
+.banner-good img{
+  width: 15%;
+  height: 30%;
+}
 }
 .banner-good h2 {
   padding: 5rem;
@@ -377,7 +373,7 @@ p.logoname {
   }
 }
 @media only screen and (max-width: 500px){
-  .one  {
+  .one {
     display: flex;
     flex-direction: column;
     height: 200px;
@@ -519,53 +515,6 @@ p.logoname {
   box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.80);
 }
 
-/*.banner {
-  width: 100%;
-  display: flex;
-  height: 400px;
-  justify-content: center;
-  align-items: center;
-}
-
-@media only screen and (max-width: 900px){
-  .banner {
-    height: 400px;
-    top: 13rem;
-  }
-}
-.photo {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-image: url('../images/eternal-flame.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 600px;
-}
-@media only screen and (max-width: 900px){
-  .photo {
-  height: 400px;
-}
-}
-
-.photo i:hover{
-  transform: rotate(360deg);
-  transition: transform 2s ease-in 200ms;
-}
-.photo h1{
-  color: white;
-  font-size: 3.5rem;
-  font-weight: 500;
-  z-index: 4;
-  font-family: 'Lobster', cursive;
-}
-.photo i{
-  z-index: 4;
-  color: grey;
-  height: 4rem;
-  width: 4rem;
-}*/
 .page-navigation {
   display: flex;
   justify-content: space-around;
@@ -617,7 +566,6 @@ p.logoname {
   background-color: lightgrey;
   border-radius: 1rem;
   box-shadow: 3px 3px 3px rgba(50 ,50 ,50 ,0.8);
-
 }
 .item p {
   font-size: 1rem;
@@ -639,10 +587,9 @@ p.logoname {
   flex-direction: column;
   align-items: center;
   background-color: lightgrey;
-  padding-bottom: 2rem;
   text-align: center;
   border-bottom: 2px solid white;
-  border-radius: 4px;
+
 }
 
 @media only screen and (max-width: 900px){
@@ -656,9 +603,11 @@ p.logoname {
 #drawings h2,
 #cad h2,
 #create h2 {
-  padding: 2rem 0;
-  color: black;
+  margin: 1rem 0;
+  padding: 2rem;
+  color: white;
   z-index: 4;
+  width: 800px;
 }
 
 #drawings h3,
@@ -678,33 +627,28 @@ p.logoname {
   font-family: "Lobster";
   padding-bottom: 5px;
 }
-#drawings p,
-#cad p,
-#create p {
-  font-size: 1.5rem;
-}
 
-#drawings {
+
+#drawings{
   background-image: url('../images/hawaii-rainbow.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
-#cad {
+#cad{
   background-image: url('../images/gear-train.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-#create {
+#create{
   background-image: url('../images/canal.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-#drawings:before{
+#drawings .projects:before{
   position: absolute;
   content: "";
   top: 0;
@@ -713,33 +657,56 @@ p.logoname {
   height: 100%;
   background-color: rgba(0, 140,255,0.5);
 }
-#cad:before {
+#cad .projects:before {
   position: absolute;
   content: "";
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 121, 0, 0.5);
+  background-color: rgba(255, 153, 0, 0.5);
 }
 
-#create:before {
+#create .projects:before {
   position: absolute;
   content: "";
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-color: rgba(217, 217, 217, 0.5);
+  height:100%;
+  background-color: rgba(0, 140,255,0.5);
+  z-index: 2;
 }
 .projects {
   display: flex;
   justify-content: space-around;
   width: 100%;
   flex-wrap: wrap;
-  z-index: 4;
+}
+.drawings{
+
+  background-color: rgb(47, 51, 56);
+}
+.cad{
+  background-color: rgb(47, 51, 56);
+}
+.create{
+  background-color: rgb(47, 51, 56);
 }
 
+.Section-Descriptions-create, .Section-Descriptions-cad, .Section-Descriptions-drawing{
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.75rem;
+  width: 800px;
+  margin: 2rem 0rem;
+  padding: 2rem;
+  background-color: rgb(47, 51, 56);
+  z-index: 4;
+  font-family: 'Lobster', cursive;
+  border-radius:
+}
 .project {
   display: flex;
   width: 300px;
@@ -748,22 +715,12 @@ p.logoname {
   justify-content: center;
   margin: 1rem;
   border-radius: 1.25rem;
+  z-index: 3;
 }
 
 .project:hover {
   box-shadow: 6px 6px 3px rgba(50 ,50 ,50 ,0.8);
 }
-/*@media only screen and (max-width: 500px) {
-  .project {
-    height: 200px;
-  }
-}
-
-@media only screen and (max-width: 800px) and (min-width: 501px){
-  .project {
-    height: 300px;
-  }
-}*/
 .project a {
   width: 100%;
   display: flex;
@@ -789,18 +746,6 @@ p.logoname {
   height: 188px;
   border-radius: 1rem;
 }
-/*@media only screen and (max-width: 800px){
-  .paint-roller {
-    height: 89.25%;
-  }
-}
-
-@media only screen and (max-width: 500px){
-  .paint-roller {
-    height: 84%;
-  }
-}*/
-
 .paint-roller:hover {
   background-image: url("../images/paint-roller-hover.jpg");
 }
@@ -934,7 +879,6 @@ p.logoname {
   background-image: url("../images/built_humidifier_hover.jpg");
 }
 .project-image-title {
-/*  padding: 1rem;*/
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -951,10 +895,6 @@ p.logoname {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-#cad {
-  background-color: white;
 }
 
 footer {
@@ -984,5 +924,3 @@ footer {
 .hover {
   display: none;
 }
-
-.
