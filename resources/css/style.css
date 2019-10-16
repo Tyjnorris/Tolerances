@@ -29,10 +29,29 @@ header {
 @media only screen and (max-width: 900px){
   .mobile {
     display: block;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 0;
 }
   .desktop {
     display: none;
   }
+}
+.mobile-list{
+  display: none;
+  margin: none;
+}
+.mobile ul{
+  margin-top:
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  background-color: white;
+  width: 100%;
+}
+.menu-item{
 }
 a {
   text-decoration: none;
@@ -607,7 +626,6 @@ p.logoname {
   padding: 2rem;
   color: white;
   z-index: 4;
-  width: 800px;
 }
 
 #drawings h3,
@@ -698,7 +716,6 @@ p.logoname {
   justify-content: center;
   align-items: center;
   font-size: 1.75rem;
-  width: 800px;
   margin: 2rem 0rem;
   padding: 2rem;
   background-color: rgb(47, 51, 56);
@@ -710,7 +727,6 @@ p.logoname {
   justify-content: center;
   align-items: center;
   font-size: 1.75rem;
-  width: 800px;
   margin: 2rem 0rem;
   padding: 2rem;
   background-color: rgb(47, 51, 56);
@@ -722,7 +738,6 @@ p.logoname {
   justify-content: center;
   align-items: center;
   font-size: 1.75rem;
-  width: 800px;
   margin: 2rem 0rem;
   padding: 2rem;
   background-color: rgb(47, 51, 56);

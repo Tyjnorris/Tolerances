@@ -17,5 +17,10 @@ $(".page-navigation .item a").on("click", function(event){
           arrows: false,
           autoplay: true,
           autoplaySpeed: 3000,
-      });
+          pauseOnHover: true,
+  });
+$("#menu").on("click",function(event){
+  event.preventDefault();
+  $(".mobile-list").slideToggle();
+})
 });
