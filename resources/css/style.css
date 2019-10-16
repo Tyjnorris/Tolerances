@@ -19,7 +19,7 @@ header {
     justify-content: center;
     display: block;
     text-align: center;
-    height: 12rem;
+    height: 10rem;
   }
 }
 .mobile {
@@ -30,9 +30,10 @@ header {
   .mobile {
     display: block;
     justify-content: center;
-    padding: 10px;
+    padding: 0px 10px 30px 10px;
     background-color: white;
     margin-bottom: 0;
+    border-bottom: 1px solid grey;
 }
   .desktop {
     display: none;
